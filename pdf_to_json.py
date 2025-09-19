@@ -328,7 +328,7 @@ def parse_pdf_to_json(pdf_path: str, output_json: str, images_dir: str = "images
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    logging.info("✅ Enriched JSON saved to %s", output_json)
+    logging.info(" Enriched JSON saved to %s", output_json)
 
 
 def main():

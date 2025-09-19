@@ -15,7 +15,9 @@ This project fulfills the **Assignment Task: PDF Parsing and Structured JSON Ext
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
+```plaintext
 pdf_parser_project/
 │── pdf_to_json.py          # Extracts PDF content into structured JSON
 │── generate_report.py      # Generates final PDF report from JSON
@@ -26,12 +28,13 @@ pdf_parser_project/
 │── images/                 # Directory for extracted images and generated charts
 │   │── page_1_img_1.png    # Extracted chart/image from PDF
 │   │── top_holdings.png    # Generated bar chart of top holdings
-│   │── performance.png      # Generated bar chart of scheme performance
-│   │── inflation_trends.png # Generated bar chart of inflation trends
-│   │── nifty_eps.png        # Generated bar chart of Nifty EPS historical trend
-│   │── debt_spreads.png     # Generated bar chart of debt spreads
+│   │── performance.png     # Generated bar chart of scheme performance
+│   │── inflation_trends.png# Generated bar chart of inflation trends
+│   │── nifty_eps.png       # Generated bar chart of Nifty EPS historical trend
+│   │── debt_spreads.png    # Generated bar chart of debt spreads
 │── requirements.txt        # List of Python dependencies
 │── README.md               # Project documentation
+        
 
 ---
 

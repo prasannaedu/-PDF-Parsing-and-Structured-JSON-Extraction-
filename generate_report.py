@@ -307,4 +307,4 @@ story.append(Paragraph(
 ))
 
 doc.build(story)
-print("✅ Final PDF generated successfully: final_report.pdf")
+print(" Final PDF generated successfully: final_report.pdf")

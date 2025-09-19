@@ -84,7 +84,7 @@ if holdings_tables:
             plt.tight_layout()
             plt.savefig('top_holdings.png', dpi=300, bbox_inches='tight')
             plt.close()
-            print("✅ Saved chart: top_holdings.png")
+            print(" Saved chart: top_holdings.png")
 
 # --- Process Performance Data ---
 if performance_tables:
@@ -122,7 +122,7 @@ if performance_tables:
             plt.tight_layout()
             plt.savefig('performance.png', dpi=300, bbox_inches='tight')
             plt.close()
-            print("✅ Saved chart: performance.png")
+            print(" Saved chart: performance.png")
 
 # --- Macro-Economic Indicators Line Chart (e.g., Inflation Trends) ---
 macro_tables = []
@@ -153,7 +153,7 @@ if macro_tables:
         plt.tight_layout()
         plt.savefig('inflation_trends.png', dpi=300, bbox_inches='tight')
         plt.close()
-        print("✅ Saved chart: inflation_trends.png")
+        print(" Saved chart: inflation_trends.png")
 
 # --- Nifty EPS Bar Chart ---
 nifty_table = [t for t in tables if "Nifty EPS" in str(t["table_data"][0]) if t["table_data"]]
@@ -181,7 +181,7 @@ if nifty_years and nifty_eps:
     plt.tight_layout()
     plt.savefig('nifty_eps.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("✅ Saved chart: nifty_eps.png")
+    print(" Saved chart: nifty_eps.png")
 
 # --- Debt Spreads Bar Chart ---
 spreads_tables = [t for t in tables if "Spreads" in str(t["table_data"][0]) if t["table_data"]]
@@ -209,6 +209,6 @@ if spreads_tables:
     plt.tight_layout()
     plt.savefig('debt_spreads.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("✅ Saved chart: debt_spreads.png")
+    print(" Saved chart: debt_spreads.png")
 
-print("\n📊 Visualization complete!")
+print("\n Visualization complete!")
