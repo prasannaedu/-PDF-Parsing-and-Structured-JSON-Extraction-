@@ -168,6 +168,13 @@ Creates a professional PDF report with:
 - `requirements.txt`: List of dependencies.
 - `README.md`: Comprehensive documentation.
 
+---
+
+##  Repository Link
+You can find the complete project on GitHub:  
+🔗 [PDF Parsing and Structured JSON Extraction](https://github.com/prasannaedu/-PDF-Parsing-and-Structured-JSON-Extraction-)
+
+
 
 
 
